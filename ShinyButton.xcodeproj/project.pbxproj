@@ -7,15 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B3217AD29E46FB000773737 /* CaptureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3217AC29E46FB000773737 /* CaptureView.swift */; };
+		9B3217B129E5267B00773737 /* Fingerprint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B3217B029E5267B00773737 /* Fingerprint.swift */; };
 		9B64E4EF29DF1D1700271BBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B64E4EE29DF1D1700271BBF /* AppDelegate.swift */; };
 		9B64E4F129DF1D1700271BBF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B64E4F029DF1D1700271BBF /* SceneDelegate.swift */; };
 		9B64E4F329DF1D1700271BBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B64E4F229DF1D1700271BBF /* ViewController.swift */; };
 		9B64E4F629DF1D1700271BBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B64E4F429DF1D1700271BBF /* Main.storyboard */; };
 		9B64E4F829DF1D1900271BBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B64E4F729DF1D1900271BBF /* Assets.xcassets */; };
 		9B64E4FB29DF1D1900271BBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B64E4F929DF1D1900271BBF /* LaunchScreen.storyboard */; };
+		9B64E50329DF284C00271BBF /* ShinyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B64E50229DF284C00271BBF /* ShinyButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9B3217AC29E46FB000773737 /* CaptureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CaptureView.swift; sourceTree = "<group>"; };
+		9B3217B029E5267B00773737 /* Fingerprint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fingerprint.swift; sourceTree = "<group>"; };
 		9B64E4EB29DF1D1700271BBF /* ShinyButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShinyButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B64E4EE29DF1D1700271BBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9B64E4F029DF1D1700271BBF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +29,7 @@
 		9B64E4F729DF1D1900271BBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9B64E4FA29DF1D1900271BBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9B64E4FC29DF1D1900271BBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B64E50229DF284C00271BBF /* ShinyButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShinyButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				9B64E4EE29DF1D1700271BBF /* AppDelegate.swift */,
 				9B64E4F029DF1D1700271BBF /* SceneDelegate.swift */,
 				9B64E4F229DF1D1700271BBF /* ViewController.swift */,
+				9B64E50229DF284C00271BBF /* ShinyButton.swift */,
+				9B3217AC29E46FB000773737 /* CaptureView.swift */,
+				9B3217B029E5267B00773737 /* Fingerprint.swift */,
 				9B64E4F429DF1D1700271BBF /* Main.storyboard */,
 				9B64E4F729DF1D1900271BBF /* Assets.xcassets */,
 				9B64E4F929DF1D1900271BBF /* LaunchScreen.storyboard */,
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B3217B129E5267B00773737 /* Fingerprint.swift in Sources */,
 				9B64E4F329DF1D1700271BBF /* ViewController.swift in Sources */,
 				9B64E4EF29DF1D1700271BBF /* AppDelegate.swift in Sources */,
 				9B64E4F129DF1D1700271BBF /* SceneDelegate.swift in Sources */,
+				9B64E50329DF284C00271BBF /* ShinyButton.swift in Sources */,
+				9B3217AD29E46FB000773737 /* CaptureView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,7 +229,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +284,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -289,9 +301,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9QB868S2HF;
+				DEVELOPMENT_TEAM = 83JLR2XBG3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ShinyButton/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to display shiny button.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -302,7 +315,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wgy.ShinyButton;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanggy.ShinyButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -317,9 +330,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 9QB868S2HF;
+				DEVELOPMENT_TEAM = 83JLR2XBG3;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ShinyButton/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera to display shiny button.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -330,7 +344,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wgy.ShinyButton;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wanggy.ShinyButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
